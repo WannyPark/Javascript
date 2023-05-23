@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap {
+    padding: 30px;
+}
+
+.board_table {
+    width: 100%;
+}
+
+.board_head {
+    border-top: 2px solid green;
+}
+
+.data td,
+.data th {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.title:nth-child(2) {
+    text-align: left;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
