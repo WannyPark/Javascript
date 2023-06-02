@@ -41,7 +41,7 @@ class UserStorage {
         }, 1000);
     }
 }
-
+zhfq
 const userStorage = new UserStorage();
 const id = prompt('enter your id');
 const password = prompt('enter your password');
