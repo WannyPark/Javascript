@@ -51,10 +51,21 @@ html, body {
     padding: 5px;
 }
 
-.html-css-js,
-.javascript,
-.algorithm {
+.html-css-js-head,
+.javascript-head,
+.algorithm-head {
     cursor: pointer;
+}
+
+.html-css-js-list,
+.javascript-list,
+.algorithm-list {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.none {
+    display: none;
 }
 
 .search {

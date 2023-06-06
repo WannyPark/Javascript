@@ -23,7 +23,7 @@ int main(void) {
             sum = 1;
         }
         result.push_back((tmp % 10) + '0');
-        index1++;
+        index1++;   
         index2++;
     }
     while (index1 < str1.length()) {
