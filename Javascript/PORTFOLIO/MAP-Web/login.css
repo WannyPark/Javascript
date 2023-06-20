@@ -10,40 +10,42 @@ html, body {
 }
 
 .container {
-    width: 700px;
-    height: 400px;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(231, 231, 231);
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 2%;
 }
 
 .inputId {
     height: 50px;
     width: 400px;
     position: absolute;
-    top: 145px;
-    left: 150px;
+    top: 75px;
+    left: 75px;
 }
 
 .inputPw {
     height: 50px;
     width: 400px;
     position: absolute;
-    top: 205px;
-    left: 150px;
+    top: 135px;
+    left: 75px;
 }
 
 .loginBt {
     height: 50px;
     width: 60px;
     position: absolute;
-    top:275px;
-    left: 150px;
+    top: 200px;
+    left: 75px;
 }
 
 .goHome {
     position: absolute;
-    top: 340px;
-    left: 150px;
+    top: 210px;
+    left: 400px;
 }
