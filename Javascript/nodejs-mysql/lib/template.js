@@ -15,14 +15,26 @@ module.exports = {
     </body>
     </html>
     `;
-  },list:function(filelist){
+  },list:function(topics){
     var list = '<ul>';
     var i = 0;
-    while(i < filelist.length){
-      list = list + `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`;
+    while(i < topics.length){
+      list = list + `<li><a href="/?id=${topics[i].id}">${topics[i].title}</a></li>`;
       i = i + 1;
     }
     list = list+'</ul>';
     return list;
-  }
+  },authorsList:function(authors) {
+    var list = '';
+    var i = 0;
+    while(i < authors.length) {
+      list += `<option value="${authors[i].id}">${authors[i].name}</option>`;
+      i++;
+    }
+    return `
+    <select name="author">
+      ${list}
+    </select>
+    `
+  } 
 }
